@@ -6,7 +6,7 @@ from decimal import Decimal
 from decimal import InvalidOperation
 from inspect import isgeneratorfunction
 from inspect import isgenerator
-from collections import Iterable
+from collections.abc import Iterable
 
 import peewee
 from dateutil.parser import parse as dateutil_parse
